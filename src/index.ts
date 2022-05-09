@@ -39,7 +39,7 @@ async function startBot() {
   });
   app.get("/", async (req, res) => {
     res.send("Hello World!");
-    await socket.sendMessage("573135408570@s.whatsapp.net", {
+    await socket.sendMessage("573162573863@s.whatsapp.net", {
       text: "Hello there!",
     });
   });
@@ -52,6 +52,6 @@ try {
   console.log("BOT CRASHED")
   startBot();
 }
-app.listen(3000, () => {
+app.listen(1708, () => {
   console.log("Server is running on port 3000");
 });
